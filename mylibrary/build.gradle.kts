@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.ogoons"
-version = "1.0.0"
+version = "1.0.1"
 
 android {
     namespace = "com.ogoons.mylibrary"
@@ -49,7 +49,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.github.ogoons"
                 artifactId = "mylibrary"
-                version = "1.0.0"
+                version = "1.0.1"
 
                 from(components["release"])
             }
